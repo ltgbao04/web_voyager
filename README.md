@@ -53,3 +53,5 @@ Run the main script to start the agent:
 ```bash
 python web_voyager.py
 ```
+
+**_NOTE:_**  If a CAPTCHA is encountered during browsing, please solve it manually in the browser window.
