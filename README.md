@@ -8,16 +8,16 @@ This project implements a visual web-browsing agent using [LangGraph](https://gi
 ## 📁 Project Structure
 ```
 web-voyager/
-├── .env                        # API keys and configuration 
-├── mark_page.js         # JavaScript for annotating web pages with clickable boxes
-├── web_voyager.py    # LangGraph implementation and state logic
-├── requirements.txt    # Python dependencies
+├── .env                    # API keys and configuration 
+├── mark_page.js            # JavaScript for annotating web pages with clickable boxes
+├── web_voyager.py          # LangGraph implementation and state logic
+├── requirements.txt        # Python dependencies
 └── README.md           
 ```
 
 ---
 
-## ⚙️ Environment Setup
+## ⚙️ Environment Setup 
 
 ### 1. Clone the Repository
 ```bash
