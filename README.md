@@ -55,3 +55,9 @@ python web_voyager.py
 ```
 
 **_NOTE:_**  If a CAPTCHA is encountered during browsing, please solve it manually in the browser window.
+## 🔐 Automatic Login
+Run `login_agent.py` to log in to any website automatically:
+```bash
+python login_agent.py --url <login_page> --username <user> --password <pass>
+```
+
