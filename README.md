@@ -70,3 +70,4 @@ python visual_login_agent.py
 - Prompt must contain the target URL and, if login is required, must include both username and password (e.g., `{username: your_user password: your_pass}`).
 - If a CAPTCHA is encountered during browsing, please solve it manually in the browser window.
 
+Ex: Login into Kaggle.com, try to sign in with this account {username: ltgbao04@gmail.com, password: password}
