@@ -323,11 +323,14 @@ async def call_agent(question: str, page, max_steps: int = 150):
 
 async def main():
     async with async_playwright() as p:
+        
+        prompt = input("Enter your prompt (make sure to include the account if you want to login): ")
+
         browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
         await page.goto("https://www.google.com")
         #prompt = "Could you explain the WebVoyager paper (on arxiv)?"
-        prompt = "Could you explain the VulnBot paper (on axriv)?"
+        
         answer = await call_agent(prompt, page)
         print("Final Answer:", answer)
         await browser.close()
